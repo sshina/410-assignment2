@@ -1,0 +1,4 @@
+repository "410-assignment2@sshina@cloud"
+  path "/"
+    br "/main"
+    co "/main"
