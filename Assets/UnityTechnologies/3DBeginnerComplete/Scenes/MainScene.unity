@@ -17631,6 +17631,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 6199127110365035084}
+    - targetCorrespondingSourceObject: {fileID: 8038108750564668487, guid: 39d0626ce76d1884da050e0e509a5540,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6199127110365035085}
   m_SourcePrefab: {fileID: 100100000, guid: 39d0626ce76d1884da050e0e509a5540, type: 3}
 --- !u!4 &2008973354732098957 stripped
 Transform:
@@ -18503,6 +18507,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ghost_particles: {fileID: 1604983919}
   lemon: {fileID: 6077229646317852079}
+--- !u!114 &6199127110365035085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155375488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7c22d0218ee7924d8e35478a362399c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2008973354732098957}
 --- !u!4 &6925745739663848697 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6925745739663848697, guid: abeb186619cc7e6419cb81e1e4dfa162,
