@@ -15,4 +15,7 @@ Particle effect/trigger - Lochlan Scharpf
 - The gargoyle cries when you leave its radius.
 
 Sound effect/trigger - Ethan Reinhart
-- desc
+- Assets/UnityTechnologies/3DBeginnerComplete/Audio/crying.mp3 and Assets/UnityTechnologies/3DBeginnerComplete/Scripts/CryingScript.cs
+- The crying audio increases in volume the further you are from a ghost (max 5 blocks away)
+- Becomes quieter and quieter as ghost approaches, simulates fear / neccesity to be quiet to avoid being caught
+- Obtains positions of all Ghosts and Player and distance between the two and modifies volume based on said distance
